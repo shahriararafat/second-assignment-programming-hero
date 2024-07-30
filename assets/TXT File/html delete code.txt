@@ -1,0 +1,72 @@
+  <!-- run an extra mile section start from here -->
+
+        <section class="run-container">
+            <div class="run-content">
+                <div class="run-text">
+                    <h1>Run an Extra Mile Easily</h1>
+
+                    <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts</p>
+
+                    <button>Join Now</button>
+                </div>
+
+                <div class="run-img">
+                    <img src="./assets/images/run.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+    <!-- run an extra mile section end here -->
+
+    <!-- BMI Calculator section start from here -->
+
+    <section class="bmi-container">
+        <div class="bmi-content">
+            <div class="bmi-first">
+                <h1>BMI Calculator</h1>
+                <p>We believe fitness should be accessible to everyone everywhere, regardless of income or access to a gym</p>
+            </div>
+            <div class="bmi-second">
+
+                <div class="bmi-chart">
+                    <h2>BMI Calculator Chart</h2>
+                </div>
+
+                <div class="bmi-calculator">
+                   <div class="bmi-calculator-text">
+                    <h1>Calculate your BMI</h1>
+                    <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+                   </div>
+                   <div class="bmi-calculator-from">
+                    <form action=""><input type="number" name="" id="" placeholder="Height/cm"></form>
+                    <form action=""><input type="number" name="" id="" placeholder="Weight/kg"></form>
+                    <form action=""><input type="number" name="" id="" placeholder="Age"></form>
+                    <form action="">inp</form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BMI Calculator Section end here -->
+
+    <!-- Team section start here -->
+
+    <section class="team-container">
+        <div class="team-content">
+            <div class="team-text">
+                <h1>Meet Our Team</h1>
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            </div>
+        </div>
+    </section>
+
+        <!-- footer section start here -->
+
+    <!-- Team section end here -->
+
+    </main>
+
+        <!-- main section end here -->
+         
+</body>
+</html>

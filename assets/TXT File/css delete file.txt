@@ -1,0 +1,116 @@
+/* run an extra mile section start from here */
+
+.run-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.run-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 340px;
+}
+
+.run-content .run-text{
+    width: 400px;
+    color: white;
+}
+
+.run-text h1{
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.run-text p{
+    padding-bottom: 30px;
+}
+
+.run-text button{
+    color: white;
+    padding: 15px 60px;
+    border-radius: 30px;
+    font-size: 15PX;
+    font-weight: 700;
+    background-color: rgb(230, 83, 60);
+    border: none;
+}
+
+.run-img img{
+    border-radius: 20px;
+}
+
+/* run an extra mile section end here */
+
+/* BMI Calculator section start from here  */
+
+.bmi-content{
+    width: 1240px;
+    height: 700px;
+    border: 1px solid red;
+}
+
+.bmi-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+
+.bmi-first{
+    color: white;
+    width: 600px;
+    height: auto;
+    padding-left: 220px;
+    padding-bottom: 100px;
+}
+
+.bmi-first h1{
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.bmi-second{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bmi-chart{
+    color: white; 
+}
+
+.bmi-calculator-text{
+    color: white;
+    width: 515px;
+}
+
+.bmi-calculator-text h1{
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.bmi-calculator-text p{
+    padding-bottom: 25px;
+}
+
+/* BMI section end here */
+
+/* Team section start from here */
+
+
+.team-container{
+    width: 1240px;
+    height: 700px;
+    border: 1px solid red;
+   
+}
+
+.team-text{
+    color: white;
+}

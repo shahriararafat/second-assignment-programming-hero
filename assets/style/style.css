@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+/* header section start here */
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 57px;
+    padding-bottom: 10px;
+}
+.logo{
+    font-family: 'Inter', sans-serif;
+    color: rgb(230, 83, 60);
+    width: 132px;
+    height: 43px;
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.navbar{
+    width: 465px;
+    height: 46px;
+    border: 1px solid rgb(51, 47, 47);
+    border-radius: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    
+}
+
+.navbar li{
+    padding-top: 10px;
+}
+
+.navbar li a{
+    width: 150px;
+    height: 22px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: transparent;
+}
+
+
+
+.home-nav{
+    border: 1px solid rgb(230, 83, 60);
+    background-color: rgb(230, 83, 60);
+    border-radius: 40px;
+    padding: 10px 50px;
+}
+
+/* header section end here */
+
+/* banner section start from here */
+
+.banner-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content{
+    width: 1256px;
+    height: 700px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.banner-text{
+    width: 40%;
+    height: 60%; 
+}
+
+.banner-text h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+.banner-text p{
+    color: rgb(137, 137, 137);
+    padding-bottom: 30px;
+}
+
+.banner-btn button{
+color: white;
+padding: 10px 50px;
+border-radius: 30px;
+font-weight: 700;
+}
+
+.banner-btn > .first-btn{
+    background-color: rgb(230, 83, 60);
+    border: none;
+}
+.banner-btn >.second-btn{
+    border: none;
+    border: 1px solid white;
+}
+
+.banner-image img{
+    width: 100%;
+}
+
+.first-box{
+    color: white;
+    position: absolute;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #fff;
+    background: rgba(48,48,48,0.54);
+    left: 964px;
+    top: 656px;
+
+}
+
+
+.first-box h1{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.first-box p{
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 0.30;
+    
+}
+.second-box{
+    color: white;
+    position: absolute;
+    border-radius: 12px;
+    padding: 15px;
+    border: 1px solid #fff;
+    background: rgba(48,48,48,0.54);
+    top: 360px;
+    left: 1240px;
+
+}
+.second-box-2 h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.second-box-2 p{
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 0.30;
+}
+/* banner section end here */
+
+/* habits section start from here */
+
+.habits-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.habits-content{
+    width: 1200px;
+    height: 600px;
+    justify-content: space-between;
+}
+
+.habits-text{
+    color: white;
+    padding-bottom: 70px;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.habits-text h1{
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.habits-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.habits-img h4{
+    padding-top:30px;
+}
+
+.habits-img p{
+    padding-top: 5px;
+}
+
+.habits-img-box{
+    width: 200px;
+
+}
+
+.habits-img-box img{
+    border-radius: 100%;
+}
+
+/* habits section end here */
+
