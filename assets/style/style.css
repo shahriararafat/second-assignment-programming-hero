@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 
 *{
     margin: 0;
@@ -94,11 +95,13 @@
     font-size: 70px;
     font-weight: 900;
     padding-bottom: 30px;
+    font-family: "Inter", sans-serif;
 }
 
 .banner-text p{
     color: rgb(137, 137, 137);
     padding-bottom: 30px;
+    font-family: "Inter", sans-serif;
 }
 
 .banner-btn button{
@@ -106,6 +109,7 @@ color: white;
 padding: 10px 50px;
 border-radius: 30px;
 font-weight: 700;
+font-family: "Inter", sans-serif;
 }
 
 .banner-btn > .first-btn{
@@ -194,6 +198,11 @@ font-weight: 700;
     font-size: 50px;
     font-weight: 700;
     padding-bottom: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.habits-text p{
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .habits-img{
@@ -206,10 +215,13 @@ font-weight: 700;
 
 .habits-img h4{
     padding-top:30px;
+    font-family: "Inter", sans-serif;
 }
 
 .habits-img p{
+    color: rgba(255, 255, 255, 0.5);
     padding-top: 5px;
+    font-family: "Inter", sans-serif;
 }
 
 .habits-img-box{
@@ -220,6 +232,58 @@ font-weight: 700;
 .habits-img-box img{
     border-radius: 100%;
 }
+
+/* habits section end here */
+
+.run-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.run-content{
+    width: 1200px;
+    height: 340px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.run-text{
+    width: 50%;
+}
+
+.run-text h1{
+    color: #fff;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    width: 400px;
+}
+.run-text p{
+    color: #FFFFFF80;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 400px;
+} 
+.run-text button{
+    color: white;
+    padding: 15px 60px;
+    border-radius: 30px;
+    font-size: 15PX;
+    font-weight: 700;
+    background-color: rgb(230, 83, 60);
+    border: none;
+} 
+
+.run-img img{
+    border-radius: 20px;
+}
+
+
 
 /* habits section end here */
 
