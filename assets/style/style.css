@@ -235,6 +235,8 @@ font-family: "Inter", sans-serif;
 
 /* habits section end here */
 
+/* run section start here */
+
 .run-container{
     display: flex;
     justify-content: center;
@@ -269,7 +271,7 @@ font-family: "Inter", sans-serif;
     padding-bottom: 35px;
     width: 400px;
 } 
-.run-text button{
+.btn{
     color: white;
     padding: 15px 60px;
     border-radius: 30px;
@@ -282,8 +284,121 @@ font-family: "Inter", sans-serif;
 .run-img img{
     border-radius: 20px;
 }
+ 
+/* run section end here */
 
+/* bmi section start from here */
 
+.bmi-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
 
-/* habits section end here */
+.bmi-content{
+    width: 1200px;
+    height: 700px;
+}
 
+.bmi-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    padding-bottom: 100px;
+}
+
+.bmi-first h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.bmi-first p{
+    width: 595px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.bmi-second{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bmi-chart h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    padding-bottom: 55px;
+}
+
+.bmi-chart table,th,td{
+    border: 1px solid #393939;
+    font-family: "inter";
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 1rem;
+}
+.tb-head{
+    font-size: 1rem;
+}
+.tb-content{
+    opacity: 0.50;
+}
+
+.bmi-calculator-text {
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+
+.bmi-calculator-text h1{
+    width: 443px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+}
+.bmi-calculator-text p{
+    width: 570px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.bmi-calculator-form input{
+    padding: 1rem 2rem 1rem 2rem;
+    background: rgb(57, 57, 57);
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    color:#fff;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.bmi-calculator-form select{
+
+    padding: 1rem 8rem 1rem 2rem;
+    background: rgb(57, 57, 57);
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    color: #fff;
+    margin-bottom: 35px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+
+}
