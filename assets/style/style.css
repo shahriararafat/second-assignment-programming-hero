@@ -494,6 +494,64 @@ th,td{
 
 /* team section end here */
 
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.footer-content{
+    width: 1200px;
+    height: 400px;
+    margin-top: 300px;
+}
 
+.footer-first-part{
+    display: flex;
+    justify-content: space-between  ;
+}
+
+.footer-about p{
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 45px;
+    width: 430px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-menu h2{
+    color: #fff;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.footer-menu ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.footer-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.footer-copy-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-copy-text hr{
+    border: 1px solid #2e2e2e;
+
+}
 
